@@ -74,31 +74,6 @@ Run the script with the following syntax:
 | Files ending in `.JPG` | `"*.JPG"` | `./adjust_timestamps.sh "/path" "*.JPG" 4` |
 | Files from 2024 | `"2024-*"` | `./adjust_timestamps.sh "/path" "2024-*" -2` |
 
----
-
-## **How to Store This in GitHub**
-### **1. Create a New GitHub Repository**
-1. Go to [GitHub](https://github.com/) and log in.
-2. Click the **"+"** icon (top-right) → **New Repository**.
-3. Enter a repository name (e.g., `timestamp-adjuster`).
-4. Set visibility to **Public** or **Private**.
-5. **DO NOT** initialize with a README (we'll add it manually).
-6. Click **Create Repository**.
-
-### **2. Upload Your Files**
-Run the following in your terminal:
-
-```bash
-cd /path/to/your/project
-git init
-git add adjust_timestamps.sh README.md
-git commit -m "Initial commit"
-git branch -M main
-git remote add origin https://github.com/YOUR_USERNAME/timestamp-adjuster.git
-git push -u origin main
-```
-
-Replace `YOUR_USERNAME` with your actual GitHub username.
 
 ---
 
